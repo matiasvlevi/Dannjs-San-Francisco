@@ -1,3 +1,7 @@
+let xs = [];
+let ys = [];
+let cs = [];
+let ps = [];
 function plotGraph() {
   if (houses.data.length > 0) {
     for (let i = 0; i < houses.data.length; i++) {

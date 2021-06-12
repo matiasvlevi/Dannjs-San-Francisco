@@ -1,7 +1,3 @@
-let xs = [];
-let ys = [];
-let cs = [];
-let ps = [];
 let tlat = [];
 let tlon = [];
 let tprice = [];

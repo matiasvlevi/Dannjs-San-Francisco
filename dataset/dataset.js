@@ -11,8 +11,10 @@
  * 5: population
  * 6: households
  * 7: median_income
- * 8: median_house_value
- * 9: ocean_proximity
+ * 8: ocean_proximity
+ * 
+ * Ai prediction:
+ * 0: median_house_value
  * 
  * Data has been normalized, and formatted into JSON. 
  * The original dataset accounts for the entirety of california, 

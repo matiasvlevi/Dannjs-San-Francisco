@@ -2,6 +2,7 @@ let xs = [];
 let ys = [];
 let cs = [];
 let ps = [];
+// Map data for the display
 function plotGraph() {
   if (houses.data.length > 0) {
     for (let i = 0; i < houses.data.length; i++) {
@@ -12,6 +13,9 @@ function plotGraph() {
     }
   }
 }
+// Map colors with a color scale
+// Try the function on desmos:
+// https://www.desmos.com/calculator/ycki0ogxqr
 function mapColor(value) {
   let r = map(value, 0, 1, 0, 255);
   let g = map(value, 0, 1, 255, 0);

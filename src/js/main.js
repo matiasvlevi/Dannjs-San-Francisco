@@ -59,18 +59,21 @@ function setup() {
 let graphFunc = pricesGraph;
 function draw() {
     background(45,50,69);
+    // Train if dataset exists
     if (houses.data.length > 0) {
         train();
     }
 
     plotGraph();
+
     if (detail) {
         netplot.render();
         textInfo();
     }
-    if (map_ == true) {
+    if (map_) {
         graphFunc();
     }
+    // Display Ai prediction graph & value graph if values exist
     if (losses.length > 0) {
         graphFunc = pricesGuessGraph;
         fill(45,50,69)

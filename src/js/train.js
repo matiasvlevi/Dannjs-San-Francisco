@@ -13,9 +13,9 @@ function train(epoch = 1) {
   // Train multiple epochs
   for (let e = 0; e < epoch; e++) {
 
-    // Log
+    // Log epochs
     if (logs == true) {
-      console.log("Epoch :" + nn.epoch);
+      console.log("Epoch " + nn.epoch);
     }
 
     // Train 1 epoch

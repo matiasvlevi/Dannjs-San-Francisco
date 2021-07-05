@@ -1,15 +1,23 @@
 {
-  "name": "Dannjs-San-Francisco",
+  "name": "San-Francisco",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Deep Neural Network learns to predict housing prices in San-Francisco",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasvlevi/Dannjs-San-Francisco.git"
+  },
   "keywords": [],
-  "author": "Matias Vazquez-Levi",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasvlevi/Dannjs-San-Francisco/issues"
+  },
+  "homepage": "https://github.com/matiasvlevi/Dannjs-San-Francisco#readme",
   "dependencies": {
-    "dannjs":"^2.2.10"
+    "dannjs": "^2.2.10"
   }
 }

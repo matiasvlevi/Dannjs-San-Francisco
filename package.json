@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "Matias Vazquez-Levi",
   "license": "ISC"
-  "dependencies" : {
+  "dependencies": {
     "dannjs":"^2.2.10"
   }
 }

@@ -30,3 +30,9 @@ The moving dots are the models predictions.
 
 ## Run
 Launch `canvas.html` into any browser, or click [here](https://dannjs.org/livedemo)
+
+<br>
+
+## Tutorial
+
+A tutorial to create this in Node.js is available [here](https://dev.to/leviackerman3855/dann-js-teaching-a-neural-network-how-to-predict-san-francisco-house-prices-odd).
